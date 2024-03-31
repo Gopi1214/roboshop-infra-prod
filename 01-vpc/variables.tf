@@ -25,15 +25,15 @@ variable "environment" {
 }
 
 variable "public_subnets_cidr" {
-  default = ["10.1.1.0/24", "10.1.2.0/24"]
+  default = ["10.0.3.0/24", "10.0.4.0/24"]
 }
 
 variable "private_subnets_cidr" {
-  default = ["10.1.11.0/24", "10.1.12.0/24"]
+  default = ["10.0.13.0/24", "10.0.14.0/24"]
 }
 
 variable "database_subnets_cidr" {
-  default = ["10.1.21.0/24", "10.1.22.0/24"]
+  default = ["10.0.23.0/24", "10.0.24.0/24"]
 }
 
 variable "is_vpc_peering_required" {
